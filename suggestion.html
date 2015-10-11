@@ -1,0 +1,217 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<title>Question Page</title>
+	  	<meta charset="utf-8">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	  	<meta name="description" content="The HTML5 Herald">
+	  	<meta name="author" content="SitePoint">
+	  	<link rel="stylesheet" href="css/style.css" type="text/css">
+	  	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	  	<link rel="stylesheet" href="css/Lessframework.css" type="text/css">
+	  	<link rel="stylesheet" href="css/menu.css" type="text/css">
+	  	<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+	  	<link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css">
+	  	<script src="http://code.jquery.com/jquery-latest.min.js"
+        type="text/javascript"></script>
+        <script src="js/jquery.bxslider.min.js"></script>
+		  <!--[if lt IE 9]>
+		  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		  <![endif]-->
+		  <!--[if IE 7]>
+  		 <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+		 <![endif]-->
+	  <script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="register fix">
+			<div class="register_area fix stracture">
+				<p class="floatright"><a href=""><i class="icon-user btn btn-success btn-large 3x-large"></i></a></p>
+			</div>
+		</div>
+		<div class="header fix">
+			<div class="header_area fix stracture">
+				<a href=""><img src="img/logo.png" alt=""></a>
+				    <form class="form-search floatright">
+	    				<input type="text" class="input-medium search-query">
+	    				<button type="submit" class="btn btn-primary"><i class="icon-search"></i></button>
+    				</form>
+			</div>
+		</div>
+		<div class="mainmenu fix">
+			<div class="">
+				<nav class="clearfix">
+					<ul class="clearfix">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Location</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Events</a></li>
+						<li><a href="#">Coustomer</a></li>
+						<li><a href="#">Agency</a></li>			
+					</ul>
+					<a href="#" id="pull">Menu</a>
+				</nav>
+			</div>
+		</div>
+
+
+
+		<div class="container" id="custom_background">
+			<div class="row">
+				<div class="span12">
+					<img src="img/c_center.png" alt="">
+				</div>
+			</div>
+				<div class="row">
+					<div class="span12">
+						<nav class="clearfix">
+							<ul class="clearfix">
+								<li><a href="#">Notification</a></li>
+								<li><a href="#">Faq</a></li>
+								<li><a href="#">Suggestion</a></li>
+								<li><a href="#">Question</a></li>		
+							</ul>
+							<a href="#" id="pull">Menu</a>
+						</nav>
+						<legend>Suggestion</legend>
+					</div>
+				</div>
+				<div class="row">
+					<div class="offset3 span6">
+						<!-- Form Name -->
+						<form class="form-horizontal">
+						<fieldset>
+						<!-- Text input-->
+						<div class="control-group">
+						  <label class="control-label">Writer</label>
+						  <div class="controls">
+						    <input id="" name="" placeholder="" class="input-xlarge" required="" type="text">
+						    
+						  </div>
+						</div>
+
+						<!-- Text input-->
+						<div class="control-group">
+						  <label class="control-label">Email-ID</label>
+						  <div class="controls">
+						    <input id="textinput" name="textinput" placeholder="E-mail" class="input-xlarge" required="" type="text">
+						    <p class="help-block">Lorem ipsum Dolor sit amet</p>
+						  </div>
+						</div>
+
+						<!-- Text input-->
+						<div class="control-group">
+						  <label class="control-label">Cell Phone</label>
+						  <div class="controls">
+						    <input id="textinput" name="textinput" placeholder="Cell Number" class="input-xlarge" required="" type="text">
+						    <p class="help-block">Lorem ipsum Dolor sit amet</p>
+						  </div>
+						</div>
+
+						<!-- Text input-->
+						<div class="control-group">
+						  <label class="control-label">Title</label>
+						  <div class="controls">
+						    <input id="textinput" name="textinput" placeholder="" class="input-xlarge" required="" type="text">
+						    
+						  </div>
+						</div>
+
+						<!-- Textarea -->
+						<div class="control-group">
+						  <label class="control-label">Suggestion</label>
+						  <div class="controls">                     
+						    <textarea id="textarea" name="textarea"></textarea>
+						  </div>
+						</div>
+
+						<!-- Button -->
+						<div class="control-group">
+						  <label class="control-label"></label>
+						  <div class="controls">
+						    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Suggestion</button>
+						  </div>
+						</div>
+
+						</fieldset>
+						</form>
+
+						</div>
+												
+    				</div>
+    			</div>
+		<div class="action fix">
+			<div class="action_area fix stracture">
+				<ul>
+					<li class="men"><a href=""><h2>Notice</h2><p>lorem Ipsum</p></a></li>
+					<li class="chat"><a href=""><h2>Faq</h2><p>lorem Ipsum</p></a></li>
+					<li class="sbox"><a href=""><h2>Samply</h2><p>Lorem Ipsum</p></a></li>
+					<li class="call"><a href=""><h2>Contact Us</h2><p>Lorem Ipsum</p></a></li>
+				</ul>
+			</div>
+		</div>																
+		
+		<div class="footermenu">
+			<div class="footermenu_area stracture">
+				<ul>
+					<li><a href="">Footer-Menu</a></li>
+					<li><a href="">Footer-Menu</a></li>
+					<li><a href="">Footer-Menu</a></li>
+					<li><a href="">Footer-Menu</a></li>
+					<li><a href="">Footer-Menu</a></li>
+					<li><a href="">Footer-Menu</a></li>
+					<li><a href="">Footer-Menu</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="contact fix">
+			<div class="contact_area stracture">
+				<div class="addres fix">
+						<div class="footer_logo floatleft">
+							<img src="img/slogo.png">
+						</div>
+						<div class="carea floatleft fix">
+							<address>위니 Ent | 대표이사 : 이상봉 | 사업자등록번호:312-31-577-92 개인정보관리책임자: 김봉술   |  help@coupang.com 충남 아산시 배방면 공수 7리 중앙하이츠 아파트 103-506 TEL : 1577-7011 | FAX : 02-3441-7011</address>
+						</div>
+					
+						<div class= "socialmedia fix floatleft fix">
+							<ul>
+								<li><a href=""><img src="img/facebook.jpg"></a></a></li>
+								<li><a href=""><img src="img/twitter.jpg"></a></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="copyright fix">
+			<div class="copyright_area fix stracture">
+				<p class="floatleft fix">Copyright &copy 2011 coupang. All rights reserved.</p>
+				<ul class="floatleft fix">
+					<li><a href=""><img src="img/twitte.png"></a></li>
+					<li><a href=""><img src="img/feed.png"></a></li>
+					<li><a href=""><img src="img/fbook.png"></a></li>
+				</ul>	
+			</div>
+		</div>		
+	  	<script src="js/scripts.js"></script>
+	</body>
+</html>

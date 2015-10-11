@@ -1,0 +1,248 @@
+
+/*		Default Layout: 992px. 
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+.stracture{width:960px}
+.single_product1{margin-left: 25px;
+width: 280px;}
+.single_product2{margin-left: 25px;
+width: 280px;}
+.single_product3{margin-left: 25px;
+width: 280px;}
+.single_product4{margin-left: 25px;
+width: 280px;}
+.single_product1 img{padding: 10px;}
+.single_product2 img{padding: 10px;}
+.single_product3 img{padding: 10px;}
+.single_product4 img{padding: 10px;}
+.action_button{width: 200px;
+margin-left: 20px;}
+.carea{margin-left: 100px;
+margin-right: 30px;
+padding-right: 67px;
+width: 340px;}
+
+/* Social Area */
+.sidebar{position: absolute;
+right: 80px;
+top: 120%;
+width: 100px;}
+.sidebar img{width: 100px} /* End Social Area */
+
+.submenu_area ul li{width: 95px}
+.submenu_area ul li a{padding: 10px;
+width: 75px;}
+
+.likeimg h4 {font-size: 18px;
+line-height: 24px;
+padding: 10px;
+text-align: center;
+width: 155px;}
+
+.likeimg p{border-radius: 3px 3px 3px 3px;font-size: 20px;
+line-height: 30px;
+margin: -50px 10px 10px;
+padding: 2px;
+width: 65px;}
+
+.action_area ul li{margin-left: 35px;
+padding: 15px;
+width: 155px;}
+
+.likeimg h4 span{font-size: 30px;line-height: 35px;
+margin-right: 10px;}
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.stracture{width:750px}
+.single_product1{margin-left: 25px;
+width: 200px;}
+.single_product2{margin-left: 25px;
+width: 200px;}
+.single_product3{margin-left: 25px;
+width: 200px;}
+.single_product4{margin-left: 25px;
+width: 200px;}
+.single_product1 img{padding: 10px;}
+.single_product2 img{padding: 10px;}
+.single_product3 img{padding: 10px;}
+.single_product4 img{padding: 10px;}
+.imgsize{width:90%}
+.action_button{margin-left: 40px;
+width: 145px;}
+.carea{margin-left: 40px;
+margin-right: 30px;
+padding-right: 67px;
+width: 340px;}
+/* Social Area */
+.sidebar{position: absolute;
+right: 60px;
+top: 150%;
+width: 100px;}
+.sidebar img{width: 80px}
+
+.submenu_area ul li{width: 70px;}
+.submenu_area ul li a{height: 35px;
+padding: 5px;
+width: 60px;}
+
+.likeimg h4 {font-size: 14px;
+line-height: 14px;
+padding: 5px;
+text-align: center;
+width: 100px;}	
+.likeimg h4 span{font-size: 20px;
+line-height: 22px;
+margin-right: 5px;}
+
+.likeimg p{border-radius: 3px 3px 3px 3px;font-size: 20px;
+line-height: 30px;
+margin: -50px 10px 10px;
+padding: 2px;
+width: 65px;}
+
+.action_area ul li{margin-left: 25px;
+padding: 10px;
+width: 130px;}
+	
+	
+}
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+.stracture{width:228px}
+.single_product1{margin-left: 15px;
+width: 200px;}
+.single_product2{margin-left: 15px;
+width: 200px;}
+.single_product3{margin-left: 15px;
+width: 200px;}
+.single_product4{margin-left: 15px;
+width: 200px;}
+.single_product1 img{padding: 6px;}
+.single_product2 img{padding: 6px;}
+.single_product3 img{padding: 6px;}
+.single_product4 img{padding: 6px;}
+.imgsize{width:94%}
+.action_button{margin-left: 40px;
+width: 145px;}
+.carea{margin-left: 40px;
+margin-right: 30px;
+padding-right: 67px;
+width: 340px;}
+/* Social Area */
+.sidebar{position: absolute;
+right: 35px;
+top: -750px;
+width: 100px;}
+.sidebar img{width: 60px}
+.floatright{float:none;}
+
+.submenu_area ul li{width: 95px}		
+.submenu_area ul li a{padding: 10px;
+width: 75px;}	
+
+.likeimg h4 {font-size: 12px;
+line-height: 20px;
+padding: 10px;
+text-align: center;
+width: 100px;}	
+.likeimg h4 span{font-size: 30px;line-height: 35px;
+margin-right: 10px;}
+
+.likeimg p{border-radius: 3px 3px 3px 3px;font-size: 20px;
+line-height: 30px;
+margin: -50px 10px 10px;
+padding: 2px;
+width: 65px;}
+
+.action_area ul li{margin-left: 25px;
+padding: 10px;
+width: 130px;}
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.stracture{width:450px}
+.single_product1{margin-left: 15px;
+width: 132px;}
+.single_product2{margin-left: 15px;
+width: 132px;}
+.single_product3{margin-left: 15px;
+width: 132px;}
+.single_product4{margin-left: 15px;
+width: 132px;}
+.single_product1 img{padding: 6px;}
+.single_product2 img{padding: 6px;}
+.single_product3 img{padding: 6px;}
+.single_product4 img{padding: 6px;}
+.imgsize{width:90%}
+.action_button{margin-left: 40px;
+width: 145px;}
+.carea{margin-left: 40px;
+margin-right: 30px;
+padding-right: 67px;
+width: 340px;}
+/* Social Area */
+.sidebar{position: absolute;
+right: 10px;
+top: -750px;
+width: 100px;}
+.sidebar img{width: 60px}
+
+.submenu_area ul li{width: 95px}
+.submenu_area ul li a{padding: 10px;
+width: 75px;}
+
+.likeimg h4 {font-size: 14px;
+line-height: 16px;
+padding: 5px;
+text-align: center;
+width: 75px;}
+
+.likeimg h4 span{font-size: 14px;
+line-height: 18px;
+margin-right: 5px;}
+
+.likeimg p{border-radius: 3px 3px 3px 3px;
+font-size: 14px;
+line-height: 14px;
+margin: -50px 6px 6px;
+padding: 2px;
+width: 38px;}
+
+.action_area ul li{margin-left: 25px;
+padding: 10px;
+width: 130px;}
+		
+}
